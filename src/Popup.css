@@ -1,0 +1,171 @@
+/* MediaQuery For PopupVersion */
+@media (max-width: 1000px) {
+  .polivyareaflxxexs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .butonpgthepopupo {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 20px;
+  }
+  .mainbackgorundsgsforall {
+    background-color: #f3f2f9;
+  }
+  .Withofthepopup {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f44336;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .mainofthecontentoverflows {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    background-color: #fff;
+    width: 290px;
+    height: 291px;
+    overflow: scroll;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    border-radius: 7px;
+  }
+  .toggledatatreds {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f44336;
+    margin-left: 10px;
+  }
+  .popupdasatas {
+    width: 300px;
+  }
+  .popupflexwidth {
+    display: flex;
+    justify-content: center;
+  }
+  .tooglexswithchforpopouo {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 21px;
+  }
+  .disclaimertextpopup {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .margtintipforumpoptip {
+    margin-top: 10px;
+  }
+  .popuppppcontenetss {
+    background: none !important;
+    border: none !important;
+  }
+  .popup-content {
+    background: none !important;
+    border: none !important;
+  }
+}
+@media (min-width: 1001px) and (max-width: 5000px) {
+  .polivyareaflxxexs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .butonpgthepopupo {
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 20px;
+  }
+  .mainbackgorundsgsforall {
+    background-color: #f3f2f9;
+  }
+  .Withofthepopup {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f44336;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .mainofthecontentoverflows {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    background-color: #fff;
+    width: 1095px;
+    height: 291px;
+    overflow: scroll;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    border-radius: 7px;
+  }
+  .toggledatatreds {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f44336;
+    margin-left: 10px;
+  }
+  .popupdasatas {
+    width: 1143px;
+  }
+  .popupflexwidth {
+    display: flex;
+    justify-content: center;
+  }
+  .tooglexswithchforpopouo {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 21px;
+  }
+  .disclaimertextpopup {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .margtintipforumpoptip {
+    margin-top: 10px;
+  }
+  .popuppppcontenetss {
+    background: none !important;
+    border: none !important;
+  }
+  .popup-content {
+    background: none !important;
+    border: none !important;
+  }
+}

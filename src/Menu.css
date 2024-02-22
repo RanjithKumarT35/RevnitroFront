@@ -1,0 +1,202 @@
+#nav-container {
+  position: relative;
+  display: inline-block;
+  max-width: 50px;
+  max-height: 50px;
+  overflow: visible;
+  outline: none;
+}
+#nav-container.is-active #nav-toggle:before,
+#nav-container.is-active #nav-toggle:after {
+  box-shadow: none;
+}
+#nav-container.is-active #nav-toggle:before {
+  transform: rotate(-45deg);
+}
+#nav-container.is-active #nav-toggle:after {
+  transform: rotate(45deg);
+}
+#nav-container.is-active .nav-items {
+  transform: translate(0, 0);
+}
+#nav-container #nav-toggle {
+  position: relative;
+  width: 34px;
+  height: 17px;
+  margin: 10px;
+  z-index: 2;
+  margin-bottom: 9px;
+}
+#nav-container #nav-toggle:hover {
+  cursor: pointer;
+}
+#nav-container #nav-toggle:before,
+#nav-container #nav-toggle:after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 0;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 4px;
+  background: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#nav-container #nav-toggle:before {
+  box-shadow: 0 10px 0 0 black;
+}
+#nav-container #nav-toggle:after {
+  box-shadow: 0 -10px 0 0 black;
+}
+#nav-container .nav-items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 285px;
+  height: auto;
+  z-index: 1;
+  padding: 40px 20px 20px 10px;
+  transition: transform 0.3s ease;
+  transform: translate(calc(-100% - 300px), 0);
+  /* background: #fff; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr;
+  grid-gap: 2px 0;
+  align-content: start; */
+  /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); */
+}
+#nav-container .nav-items .nav-item {
+  background: transparent;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+#nav-container .nav-items .nav-item:hover {
+  cursor: pointer;
+  background: transparent;
+}
+/*-------------------my code-----------*/
+
+.leftnavbarboxmobile {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0px 4px 4px 0px #0000000d;
+  padding-bottom: 29px;
+}
+
+.imageflexleftnavbarmobile {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-direction: column;
+  margin-top: 6px;
+  align-items: center;
+  padding-top: 27px;
+}
+.usernamenavbarmobile {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-right: 34px;
+}
+
+.usernamenavbarmobile h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.idnamenamemobile {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #8e8e8e;
+  margin-top: 10px;
+}
+.navigationbuttontopmobile {
+  margin-top: 25px;
+}
+.navigatelinksmobile {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 10px;
+  margin-left: 34px;
+  margin-top: 10px;
+}
+.navigatelinksmobile:hover {
+  cursor: pointer;
+}
+
+.navigatenamesmobile {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 6px;
+  margin-bottom: 5px;
+}
+
+.navigatenamesmobile:hover {
+  /* font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 6px;
+  margin-bottom: 5px; */
+  color: #f00;
+}
+
+.mobileversionnavbarimagesizess img {
+  width: 70px;
+  height: 70px;
+}
+.mobilevrersionnamesize {
+  font-size: 21px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  text-align: center;
+}
+.mobilevrersionnamesize h3 {
+  font-size: 21px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  text-align: center;
+}
+.editiconinmobileversionbox img {
+  width: 32px;
+  height: 32px;
+}
+.editiconinmobileversionbox {
+  position: absolute;
+  top: 51px;
+  left: 54px;
+}
+
+.belliiconofmobile {
+  position: relative;
+  margin-right: 27px;
+  margin-top: 24px;
+}
+
+.belliiconofmobile img {
+  width: 21px;
+}
+
+.notificationinmobileversionzx {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
